@@ -14,7 +14,9 @@
 </p>
 
 <h1 align="center">
-    <img alt="Letmeask" title="Letmeask" src=".github/cover.svg" />
+    <p align="center">
+   <img src="https://user-images.githubusercontent.com/55769021/123392672-b6d06c80-d573-11eb-9851-12faf2b1fcfb.png" alt="Home page Letmeask"/>
+</p>
 </h1>
 
 <br>
