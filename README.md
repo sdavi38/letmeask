@@ -29,25 +29,23 @@ This project was developed using the following technologies:
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 🚀 Getting started
+## 🚀 Como rodar?
 
-Clone the project and access the folder.
+Execute os comandos no seu terminal:
 
 ```bash
-$ git clone https://github.com/sdavi38/letmeask.git
-$ cd letmeask
-```
+# Clone o repositório
+$ git clone https://github.com/sdavi38/letmeask
 
-Follow the steps below:
-```bash
-# Install the dependencies
-$ yarn
+# Entre no repositório
+$ cd letmeask-nwl
 
-# Start the project
-$ yarn start
-```
-The app will be available for access on your browser at http://localhost:3000
+# Instale as dependências
+$ yarn install
 
+# Realize a configuração do SDK do Firebase
+# No arquivo .env.example
+# Altere o nome do arquivo para .env.local
 ## 🔖 Layout
 
 You can view the project layout through the links below:
@@ -56,11 +54,12 @@ You can view the project layout through the links below:
 
 Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
-## 📝 License
+Acesse em seu navegador http://localhost:3000/ para ver o resultado.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+## 📝 Licença
 
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+<p align="center">Made with 💻 by <a href="https://github.com/sdavi38">David Bernardo</a> <br><br>
 
-<p align="center">Made with 💜 by David Bernardo</p>
