@@ -6,6 +6,7 @@ import "./style.scss";
 import { Button } from "../../components/Button";
 import { RoomCode } from "../../components/RoomCode";
 import { Question } from "../../components/Question";
+import {Loading} from '../../components/Loading'
 
 import { useAuth } from "../../hooks/useAuth";
 import { database } from "../../services/firebase";
@@ -56,6 +57,13 @@ export function Room() {
       });
     }
   }
+  if (!title)
+  return (
+    <div id="page-room">
+      
+      <Loading />
+    </div>
+  );
 
   return (
     <div id="page-room">
@@ -103,8 +111,11 @@ export function Room() {
                 key={question.id}
                 content={question.content}
                 author={question.author}
+                isAnswered={question.isAnswered}
+                isHighlighted={question.isHighlighted}
               >
-                <button
+                {!question.isAnswered && (
+                  <button
                   className={`like-button ${question.likeId} ? 'liked' : ''`}
                   type="button"
                   aria-label="Marcar como gostei"
@@ -129,6 +140,7 @@ export function Room() {
                     />
                   </svg>
                 </button>
+                )}
               </Question>
             );
           })}
