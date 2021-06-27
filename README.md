@@ -1,8 +1,11 @@
 <p align="center">
-  <img alt="Letmeask" src=".github/logo.svg" width="160px">
+  <img alt="Letmeask" src=".github/logo.svg" width="300">
 </p>
 
 <p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sdavi38/letmeask-nwl?color=835AFD">
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/sdavi38/letmeask-nwl?color=835AFD">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
   
   <img src="https://img.shields.io/github/forks/sdavi38/letmeask?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">     
